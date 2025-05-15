@@ -20,8 +20,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
       >
-        Abdelrahman <br className="sm:hidden md:block" />
-        Qassem
+        John <br className="sm:hidden md:block" />
+        Olaniyan
       </motion.h1>
       <motion.p
         variants={fadeIn("up", 0.6)}
