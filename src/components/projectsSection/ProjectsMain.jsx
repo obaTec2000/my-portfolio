@@ -26,7 +26,7 @@ const projects = [
     link: "#",
   },
   {
-    name: "Social Media App",
+    name: "Departmental Web-app",
     year: "May2024",
     align: "left",
     image: "../../public/images/website-img-4.jpg",
