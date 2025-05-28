@@ -3,33 +3,38 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
+import img1 from '../../assets/images/website-img-1.jpg';
+import img2 from '../../assets/images/website-img-2.webp';
+import img3 from '../../assets/images/website-img-3.jpg';
+import img4 from '../../assets/images/website-img-4.jpg';
+
 const projects = [
   {
     name: "IzyTravel",
     year: "Mar2022",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: img1,
     link: "#",
   },
   {
     name: "Explora",
     year: "Sept2022",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: img2,
     link: "#",
   },
   {
     name: "Rent-App",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: img3,
     link: "#",
   },
   {
     name: "Departmental Web-app",
     year: "May2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: img4,
     link: "#",
   },
 ];
