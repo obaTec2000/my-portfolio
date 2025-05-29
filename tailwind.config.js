@@ -53,6 +53,10 @@ export default {
       body: ["Josefin Sans"],
       special: ['"Nunito"'],
     },
+       animation: {
+        typing: 'typing 2s steps(12) forwards, blink 0.75s step-end infinite',
+        fadeIn: 'fadeIn 0.5s forwards'
+      }
   },
   plugins: [],
 };
