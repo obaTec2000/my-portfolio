@@ -4,7 +4,6 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import YourPhoto from "../../assets/images/mypic.jpeg";
 
 const ContactMeMain = () => {
-  // Animation variants
   const container = {
     hidden: { opacity: 0 },
     show: {
