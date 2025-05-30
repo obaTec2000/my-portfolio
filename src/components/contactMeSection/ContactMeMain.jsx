@@ -96,7 +96,7 @@ const ContactMeMain = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">Phone</h4>
                   <a
-                    href="tel:+2349060214824"
+                    href="tel:+2349160214824"
                     className="text-gray-600 hover:text-cyan-600 transition-colors"
                   >
                     +234 90 6021 4824
