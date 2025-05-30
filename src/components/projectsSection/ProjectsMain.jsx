@@ -3,35 +3,35 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-import img1 from '../../assets/images/website-img-1.jpg';
-import img2 from '../../assets/images/website-img-2.webp';
-import img3 from '../../assets/images/website-img-3.jpg';
+import img1 from '../../assets/images/Izitravelz.png';
+import img2 from '../../assets/images/departmental.png';
+import img3 from '../../assets/images/rentapp.png';
 import img4 from '../../assets/images/website-img-4.jpg';
 
 const projects = [
   {
-    name: "IzyTravel",
-    year: "Mar2022",
+    name: "IZITravelz",
+    year: "March24",
     align: "right",
     image: img1,
-    link: "#",
+    link: "https://www.izitravelz.com/",
   },
   {
-    name: "Explora",
-    year: "Sept2022",
+    name: "Departmental Web-app",
+    year: "Sept2024",
     align: "left",
     image: img2,
-    link: "#",
+    link: "https://departmental-web-app.vercel.app/",
   },
   {
     name: "Rent-App",
     year: "Jan2023",
     align: "right",
     image: img3,
-    link: "#",
+    link: "https://rent-app-ruddy.vercel.app/",
   },
   {
-    name: "Departmental Web-app",
+    name: "Ireign Website",
     year: "May2024",
     align: "left",
     image: img4,
@@ -59,6 +59,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

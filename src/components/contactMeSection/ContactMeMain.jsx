@@ -114,7 +114,7 @@ const ContactMeMain = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">GitHub</h4>
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/obaTec2000"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-cyan-600 transition-colors"
